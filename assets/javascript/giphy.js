@@ -4,7 +4,7 @@
 $(document).ready(function(){
     // array to hold bottons
     var animal =
-["Doggos", "Kitty-Cats", "Horse", "Birds"];
+        ["Doggos", "Kitty-Cats", "Horse", "Birds"];
 
     // function to make buttons
 
@@ -45,7 +45,6 @@ $(document).ready(function(){
                 var animalDiv = $("<div class=\"animal-item\">");
 
                 var rating = results[i].rating;
-
                 var p = $("<p>").text("Rating: " + rating);
 
                 var animated = results[i].images.fixed_height.url;

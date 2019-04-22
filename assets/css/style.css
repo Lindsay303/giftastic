@@ -1,16 +1,80 @@
-@font-face {
-    font-family: "Rilakkuma"; 
-    src: url('http://static.tumblr.com/npggxjg/Muhmlvatg/rilakkuma.ttf');
-}
+/* @font-face {
+    font-family: "churli cute"; 
+    src: url('http://static.tumblr.com/npggxjg/2UHm0dodm/churli_cute.ttf');
+} */
+
 
 body {
-    font-family: "Rilakkuma";
+    font-family: 'Ranchers', cursive;  
     font-size: 40px;
-    color: rgb(214, 7, 214);
-    text-align: center;
+    color: purple;
+    /* text-align: center; */
     background-image: url("https://wallpapertag.com/wallpaper/full/d/2/6/605121-cool-animals-wallpapers-1920x1080-laptop.jpg");
 }
 
-#add-animal {
-    background-color: purple;
+#animal-form {
+    font-family: 'Ranchers', cursive;
+    /* float: right; */
+    margin-right: 20px;
 }
+
+#animals {
+    font-family: 'Ranchers', cursive;
+    width: 70%;
+}
+
+.animal-item {
+    font-family: 'Ranchers', cursive;
+    float: left;
+    padding: 20px;
+}
+
+form {
+    font-family: 'Ranchers', cursive;
+    /* float: right; */
+    /* width: 30%; */
+    padding: 20px;
+}
+
+label {
+    font-family: 'Ranchers', cursive;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    font-family: 'Ranchers', cursive;
+    width: 25%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+button,
+input[type="submit"] {
+    font-family: 'Ranchers', cursive;
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 25px;
+    color: white;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: rgb(77, 1, 77);
+}
+
+button.active {
+    font-family: 'Ranchers', cursive;
+    background: purple;
+}
+
+h1 {
+    font-family: 'Ranchers', cursive;
+    font-size: 120px;
+    text-align: center;
+}
+ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat907.cur), auto !important;} /* End http://www.cursors-4u.com */
